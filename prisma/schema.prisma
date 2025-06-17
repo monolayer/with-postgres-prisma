@@ -11,7 +11,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("MONO_PG_PRISMA_EXAMPLE_DATABASE_URL")
+  url      = env("ML_PG_PRISMA_EXAMPLE_DATABASE_URL")
 }
 
 model Todos {
